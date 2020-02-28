@@ -1,0 +1,76 @@
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 54px;
+  color: #2b2e3b;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Staatliches", cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2b2e3b;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+
+.subheading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+.social-icons {
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+}
+
+#sideNav {
+  background: blue;
+} 
+
+
+#profileImg{
+  
+}
