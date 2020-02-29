@@ -67,12 +67,14 @@ p.lead {
 
 #sideNav {
   background: darkslategray;
+  
 }
 
 .imgAlign {
 display: flex;
 flex-direction: column;
 justify-content: center;
+align-items: center;
 }
 
 @media (min-width: 992px) {
@@ -84,6 +86,7 @@ justify-content: center;
     flex-direction: column;
     width: 10rem;
     height: 100vh;
+  
     
   }
 
@@ -110,9 +113,8 @@ justify-content: center;
   
 }
 #btnGit{
-  width: 60% !important;
+  width: 50% !important;
 }
-
 
 }
 #bio-text{
@@ -120,6 +122,7 @@ justify-content: center;
 }
 
 #btnGit{
-  width: 100px;
+  width: 140px;
 }
+
 
