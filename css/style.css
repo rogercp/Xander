@@ -104,8 +104,22 @@ justify-content: center;
     display: block;
   }
 }
+@media (max-width: 992px) {
+#sideNav{
+  text-align:center;
+  
+}
+#btnGit{
+  width: 60% !important;
+}
 
+
+}
 #bio-text{
   max-width: 800px;
+}
+
+#btnGit{
+  width: 100px;
 }
 

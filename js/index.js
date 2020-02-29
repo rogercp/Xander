@@ -33,31 +33,21 @@ if (profile.picture != "") {
   $("#name")
     .find(".first")
     .text(profile.name.split(" ")[0]);
-  $("#name")
-    .find(".second")
-    .text(
-      profile.name
+  $("#name").find(".second").text(
+        profile.name
         .split(" ")
         .slice(1)
         .join(" ")
     );
   document.getElementById("location").innerHTML = profile.location;
  
-  $("#email")
-    .find(".email")
-    .text(profile.email);
-  document
-    .getElementById("email")
-    .setAttribute("href", "mailto:" + profile.email);
-  document
-  .getElementById("resume").setAttribute("href", profile.social.resume)
+  $("#email").find(".email").text(profile.email);
+  document.getElementById("email").setAttribute("href", "mailto:" + profile.email);
+  document.getElementById("resume").setAttribute("href", profile.social.resume)
   $(".resume").text(profile.resume);
-  $("#description")
-    .find(".quote")
+  $("#description").find(".quote")
     // .text(`"${profile.quote}"`);
-  $("#description")
-    .find(".description")
-    .text(profile.description);
+  $("#description").find(".description").text(profile.description);
   
   // Social
   document.getElementById("linkedin").setAttribute("href", profile.social.linkedin);
