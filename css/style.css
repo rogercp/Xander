@@ -67,15 +67,15 @@ p.lead {
 
 #sideNav {
   background: darkslategray;
-  
-}
 
+}
+/* 
 .imgAlign {
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-}
+} */
 
 @media (min-width: 992px) {
   #sideNav {
@@ -86,7 +86,7 @@ align-items: center;
     flex-direction: column;
     width: 10rem;
     height: 100vh;
-  
+
     
   }
 
@@ -110,7 +110,6 @@ align-items: center;
 @media (max-width: 992px) {
 #sideNav{
   text-align:center;
-  
 }
 #btnGit{
   width: 50% !important;
@@ -126,3 +125,7 @@ align-items: center;
 }
 
 
+.profile-section {
+  padding-top: 4.5rem !important;
+  max-width: 75rem;
+}
