@@ -83,7 +83,7 @@
     <div class="container-fluid p-0">
 
    
-
+<!-- profile section -->
       <section class="profile-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
           <h1 class="mb-0" id="name">
@@ -151,15 +151,31 @@
         </div>
       </section>
    
-      <section class="profile-section p-3 p-lg-5 d-flex d-column" id="projects">
+
+      <!-- projects section -->
+      <section class="projects-section p-3 p-lg-5 d-flex d-column" id="projects">
         
         <div class="my-auto"  style="height: 1000px;">
           <h2 class="mb-5 text-center">My Projects</h2>
+
+
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <p></p>
+    </div>
+  </div>
+</div>
+
          
         </div>
       </section>
    
-      <section class="profile-section p-3 p-lg-5 d-flex d-column" id="articles">
+
+      <!-- articles section -->
+      <section class="articles-section p-3 p-lg-5 d-flex d-column" id="articles">
         
         <div class="my-auto"  style="height: 1000px;">
           <h2 class="mb-5 text-center">My Articles</h2>
@@ -167,16 +183,38 @@
         </div>
       </section>
    
-      <section class="profile-section p-3 p-lg-5 d-flex d-column" id="education">
+
+      <!-- education section -->
+      <section class="education-section p-3 p-lg-5 d-flex d-column" id="education">
         
-        <div class="my-auto" style="height: 1000px;" >
+        <div class="my-auto" style="height: 1000px; width: 100%;" >
           <h2 class="mb-5 text-center">Education</h2>
-         
+          <div id="educationContainer"></div>
+                    <!-- template -->
+          <div class="d-none">
+            <div
+              class="education-item d-flex flex-column flex-md-row mb-5"
+              id="credsTemplate"
+            >
+            
+              <div class="education-content mr-auto">
+                <h3 class="mb-0"></h3>
+               
+                <div class="subheading mb-3" ></div>
+                <p></p>
+               
+              </div>
+              <div class="education-date text-md-right">
+                <span class="date-from"> </span> - <span class="date-to"> </span>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 
 
-
+      
 
     </div>
   

@@ -14,5 +14,22 @@ twitter: "",
 github: "",
 dev: ""
 },
-
+education: [
+    {
+      school: "Lambda School",
+      degree: "Data Science",
+      fieldOfStudy: "Data",
+      location: "Online",
+      from: "May 2020",
+      to: "Now"
+    },
+    {
+      school: "Some University",
+      degree: "Bachelors of business",
+      fieldOfStudy: "Finance",
+      location: "Some Location",
+      from: "September 9999",
+      to: "August 9999"
+    }
+  ],
 }

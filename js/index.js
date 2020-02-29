@@ -57,6 +57,26 @@ if (profile.picture != "") {
   document.getElementById("bio-text").innerHTML = profile.bio;
 
 
+  // education
+  for (var i = 0; i < profile.education.length; i++) {
+    var educationTemplate = $("#credsTemplate");
+    educationTemplate.find(".mb-0").text(profile.education[i].school);
+    educationTemplate.find(".mb-3").text(profile.education[i].degree);
+    educationTemplate.find("p").text(profile.education[i].fieldOfStudy);
+    educationTemplate.find(".location").text(profile.education[i].location);
+    educationTemplate
+      .find(".date-from")
+      .text(profile.education[i].from );
+    educationTemplate
+      .find(".date-to")
+      .text(profile.education[i].to );
+
+    $("#educationContainer").append(educationTemplate.html());
+    if (i < profile.education.length - 1)
+      $("#educationContainer").append(document.createElement("hr"));
+  }
+
+
 
     }
 
