@@ -6,7 +6,7 @@ description: "Data Scientist / Machine Learning Engineer",
 bio:"I’m Xander. I’m a data scientist and machine learning engineer with a finance background, and I think that data science is the key to obtaining a winning formula. My interests are all over the place, and data science can be used to make tidy conclusions about all of them and more.",
 email: "zanderwhiteleybennett@gmail.com",
 location: "San Diego, California",
-
+image:"./images/Xander.JPG",
 social: {
 resume:"./data/Resume.pdf",
 linkedin: "https://www.linkedin.com/in/xander-bennett/",
@@ -45,17 +45,6 @@ projects:[
     date_completed:"November 2019"
 },
 {
-
-    title:"CopStop Predictions",
-    description:"Having recently moved to San Diego, I accessed their data portal and looked at every recorded instance of an officer pulling someone over from July 2018 - July 2019 and used machine learning to predict whether someone would get a ticket or not",
-    additional_points:["Explored / visualized data while feature engineering to optimize performance","Built supervised machine learning model, specifically random forest"],
-    project_image:"./images/copstop.png",
-    website_link:"",
-    github_link:"https://github.com/xander-bennett/San-Diego-Police-Data/blob/master/San%20Diego%20Police%20Data/San%20Diego%20Data%20Notebook.ipynb",
-    medium_article:"https://medium.com/@zanderwhiteleybennett/do-you-know-why-i-pulled-you-over-a1b937b11665?source=friends_link&sk=fe2396e5657826d404a7740b3614a644",
-    date_completed:"September 2019"
-
-},{
 
     title:"CopStop Predictions",
     description:"Having recently moved to San Diego, I accessed their data portal and looked at every recorded instance of an officer pulling someone over from July 2018 - July 2019 and used machine learning to predict whether someone would get a ticket or not",

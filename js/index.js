@@ -48,7 +48,8 @@ if (profile.picture != "") {
   $("#description").find(".quote")
     // .text(`"${profile.quote}"`);
   $("#description").find(".description").text(profile.description);
-  
+  document.getElementById("profileImg").setAttribute("src", profile.image)
+
   // Social icons
   document.getElementById("linkedin").setAttribute("href", profile.social.linkedin);
   document.getElementById("github").setAttribute("href", profile.social.github);
