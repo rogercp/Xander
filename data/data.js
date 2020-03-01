@@ -55,6 +55,17 @@ projects:[
     medium_article:"https://medium.com/@zanderwhiteleybennett/do-you-know-why-i-pulled-you-over-a1b937b11665?source=friends_link&sk=fe2396e5657826d404a7740b3614a644",
     date_completed:"September 2019"
 
+},{
+
+    title:"CopStop Predictions",
+    description:"Having recently moved to San Diego, I accessed their data portal and looked at every recorded instance of an officer pulling someone over from July 2018 - July 2019 and used machine learning to predict whether someone would get a ticket or not",
+    additional_points:["Explored / visualized data while feature engineering to optimize performance","Built supervised machine learning model, specifically random forest"],
+    project_image:"./images/copstop.png",
+    website_link:"",
+    github_link:"https://github.com/xander-bennett/San-Diego-Police-Data/blob/master/San%20Diego%20Police%20Data/San%20Diego%20Data%20Notebook.ipynb",
+    medium_article:"https://medium.com/@zanderwhiteleybennett/do-you-know-why-i-pulled-you-over-a1b937b11665?source=friends_link&sk=fe2396e5657826d404a7740b3614a644",
+    date_completed:"September 2019"
+
 }
 
 

@@ -77,6 +77,9 @@ p.lead {
   background: darkslategray;
 
 }
+
+
+
 /* 
 .imgAlign {
 display: flex;
@@ -138,9 +141,14 @@ section{
   max-width: 75rem;
 } */
 
-.profile-section, .about-section,.articles-section,.projects-section{
+.profile-section, .about-section,.projects-section{
   padding-top: 4rem !important;
+  display: block;
   max-width: 60rem;
+}
+.about-section{
+  padding-top: 5rem !important;
+
 }
 
 #gitPicBox{
