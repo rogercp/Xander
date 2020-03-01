@@ -83,19 +83,46 @@ if (profile.picture != "") {
 
   // projects 
 
+ profile.projects.forEach(each=>{
 
-  for (var i = 0; i < profile.projects.length; i++) {
-    var projects = $("#projectTemplate");
-    projects.find("img").attr("src", profile.projects[i].project_image);
-    projects.find("#gitButton").attr("href", profile.projects[i].github);
-    projects.find("#siteButton").attr("href", profile.projects[i].site);
-    projects.find(".project_title").text(profile.projects[i].title);
-    projects.find("p").text(profile.projects[i].description);
+  
 
-    $("#experienceContainer").append(projects.html());
-    if (i < profile.projects.length - 1)
-      $("#experienceContainer").append(document.createElement("hr"));
-  }
+
+  let projects = $("#projectTemplate");
+  projects.find("img").attr("src", each.project_image);
+  projects.find("#gitButton").attr("href", each.github);
+  projects.find("#siteButton").attr("href", each.site);
+  projects.find(".project_title").text(each.title);
+  projects.find("p").text(each.description);
+  projects.find("#more_details").empty();
+  each.additional_points.forEach(each_item=>{
+    projects.find("#more_details").append(`<li>${each_item}</li>`).css("font-size", "11px")
+
+  })
+
+$("#experienceContainer").append(projects.html());
+
+}
+)
+
+
+
+  // for (let i = 0; i < profile.projects.length; i++) {
+  //   let projects = $("#projectTemplate");
+  //   projects.find("img").attr("src", profile.projects[i].project_image);
+  //   projects.find("#gitButton").attr("href", profile.projects[i].github);
+  //   projects.find("#siteButton").attr("href", profile.projects[i].site);
+  //   projects.find(".project_title").text(profile.projects[i].title);
+  //   projects.find("p").text(profile.projects[i].description);
+
+  //   let more_details = profile.projects[i].additional_points.map(each=>{
+  //     projects.find("#more_details").append(`<li>${each}</li>`).css("font-size", "10px")
+  //   })
+  //   projects.append(more_details)
+
+  //   $("#experienceContainer").append(projects.html());
+   
+  // }
 
 
     }
