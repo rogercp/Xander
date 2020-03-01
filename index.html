@@ -144,32 +144,45 @@
       <section class="projects-section p-3 p-lg-5 d-flex d-column" id="projects">
         
         <div class="my-auto"  style="height: 1000px;">
-          <h2 class="mb-5 text-center">My Projects</h2>
+          <h2 class="mb-5">My Projects</h2>
+          <div id="experienceContainer"></div>
 
 
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">link</button>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">article </button>
 
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <p>What is Lorem Ipsum?
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        
-        Why do we use it?
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-        
-        
-        Where does it come from?
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-        
-        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-    </div>
-  </div>
-</div>
+          <!-- projects template -->
 
+          <div class="d-none">
          
+            <div
+              class="resume-item d-flex flex-column flex-md-row mb-5"
+              id="projectTemplate"
+            >
+            <h3 class="project_title"></h3>
+
+              <div class="resume-content mr-auto" id="gitPicBox">
+                
+               <div id="picDiv">
+  
+                <img src="" id="gitPic" >
+               </div>
+                <div class="subheading mb-3"></div>
+                <p></p>
+              </div>
+              <div class="resume-date text-md-right" id="cardButtons">
+                  <a id="gitButton" href="" target="_blank"><button type="button" id="btnGit" class="btn btn-info">GitHub Code</button></a>
+                  <a id="siteButton"href="" target="_blank"><button type="button" id="btnGit" class="btn btn-info">Live Website</button></a>
+                  <a id="mediumButton"href="" target="_blank"><button type="button" id="btnGit" class="btn btn-info">Medium Article</button></a>
+              </div>
+            </div>
+
+            
+
+            
+          </div>
+
+
+
+
         </div>
       </section>
    
@@ -180,7 +193,7 @@
         
         <div class="my-auto" style="height: 1000px; width: 100%;" >
 
-          <h2 class="mb-5">about</h2>
+          <h2 >about</h2>
           <div id="aboutContainer"></div>
 
           

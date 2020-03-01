@@ -76,8 +76,27 @@ if (profile.picture != "") {
   })
   aboutTemplate.append(lived)
   
-
   $("#aboutContainer").append(aboutTemplate.html());
+
+
+
+
+  // projects 
+
+
+  for (var i = 0; i < profile.projects.length; i++) {
+    var projects = $("#projectTemplate");
+    projects.find("img").attr("src", profile.projects[i].project_image);
+    projects.find("#gitButton").attr("href", profile.projects[i].github);
+    projects.find("#siteButton").attr("href", profile.projects[i].site);
+    projects.find(".project_title").text(profile.projects[i].title);
+    projects.find("p").text(profile.projects[i].description);
+
+    $("#experienceContainer").append(projects.html());
+    if (i < profile.projects.length - 1)
+      $("#experienceContainer").append(document.createElement("hr"));
+  }
+
 
     }
 
