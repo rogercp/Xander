@@ -9,6 +9,13 @@ body {
   body {
     padding-top: 0;
     padding-left: 9rem;
+
+  }
+}
+@media (max-width: 992px) {
+  body {
+   /* text-align: center; */
+
   }
 }
 
@@ -108,7 +115,7 @@ align-items: center;
     display: block;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 #sideNav{
   text-align:center;
 }
@@ -124,16 +131,17 @@ align-items: center;
 #btnGit{
   width: 140px;
 }
-
+/* 
 section{
   margin-top: 15rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
-}
+} */
 
-.profile-section, .education-section,.articles-section,.projects-section{
+.profile-section, .about-section,.articles-section,.projects-section{
   padding-top: 4rem !important;
-  max-width: 75rem;
+  max-width: 60rem;
+  height: 100vh;
 }
 
 

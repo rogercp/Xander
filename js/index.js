@@ -49,34 +49,35 @@ if (profile.picture != "") {
     // .text(`"${profile.quote}"`);
   $("#description").find(".description").text(profile.description);
   
-  // Social
+  // Social icons
   document.getElementById("linkedin").setAttribute("href", profile.social.linkedin);
   document.getElementById("github").setAttribute("href", profile.social.github);
-  document.getElementById("twitter").setAttribute("href", profile.social.twitter);
   document.getElementById("medium").setAttribute("href", profile.social.medium);
   document.getElementById("bio-text").innerHTML = profile.bio;
 
 
-  // education
-  for (var i = 0; i < profile.education.length; i++) {
-    var educationTemplate = $("#credsTemplate");
-    educationTemplate.find(".mb-0").text(profile.education[i].school);
-    educationTemplate.find(".mb-3").text(profile.education[i].degree);
-    educationTemplate.find("p").text(profile.education[i].fieldOfStudy);
-    educationTemplate.find(".location").text(profile.education[i].location);
-    educationTemplate
-      .find(".date-from")
-      .text(profile.education[i].from );
-    educationTemplate
-      .find(".date-to")
-      .text(profile.education[i].to );
+  // about
 
-    $("#educationContainer").append(educationTemplate.html());
-    if (i < profile.education.length - 1)
-      $("#educationContainer").append(document.createElement("hr"));
-  }
+  let aboutTemplate = $("#aboutTemplate")
+  aboutTemplate.find("#about-text").text(profile.about.main)
 
+  const likes = profile.about.i_like.forEach(each=>{
+    aboutTemplate.find("#likes").append(`<li>${each}</li>`)
+  })
+  aboutTemplate.append(likes)
+  
+  const worked = profile.about.worked_at.forEach(each=>{
+    aboutTemplate.find("#worked").append(`<li>${each}</li>`)
+  })
+  aboutTemplate.append(worked)
+  
+  const lived = profile.about.lived_in.forEach(each=>{
+    aboutTemplate.find("#lived").append(`<li>${each}</li>`)
+  })
+  aboutTemplate.append(lived)
+  
 
+  $("#aboutContainer").append(aboutTemplate.html());
 
     }
 
