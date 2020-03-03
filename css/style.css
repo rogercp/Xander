@@ -145,9 +145,8 @@ section{
   display: block;
   max-width: 60rem;
 }
-.about-section{
-  padding-top: 5rem !important;
-
+.more_details{
+  padding-left: 10px !important;
 }
 
 #gitPicBox{

@@ -87,30 +87,32 @@ if (profile.picture != "") {
  profile.projects.forEach(each=>{
 
   
-console.log(each.github_link,each.medium_article,each.website_link,"links")
 
   let projects = $("#projectTemplate");
-  projects.find("img").attr("src", each.project_image);
 
-  if(each.github_link.length>1){
-    projects.find("#gitButton").attr("href", each.github)
+  projects.find("img").attr("src", each.project_image);
+  
+
+ if(each.github_link.length > 1){
+    projects.find("#gitButton").attr("href", each.github_link)
   }else{
     projects.find("#gitButton").remove()
   }
-  if(each.website_link.length >1){
-    projects.find("#siteButton").attr("href", each.site)
+
+  if(each.website_link.length > 1){
+    projects.find("#siteButton").attr("href", each.website_link)
   }else{
-    projects.find("#siteButton").remove
+    projects.find("#siteButton").remove()
   }
-  if(each.medium_article.length>1){
+  if(each.medium_article.length > 1){
     projects.find("#mediumButton").attr("href", each.medium_article)
   }else{
-    projects.find("#mediumButton")
+    projects.find("#mediumButton").remove()
   }
-
 
 
   projects.find(".project_title").text(each.title);
+  projects.find("#date").text(`     ${each.date_completed}`);
   projects.find("p").text(each.description);
   projects.find("#more_details").empty();
   each.additional_points.forEach(each_item=>{
