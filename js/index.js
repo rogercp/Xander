@@ -110,20 +110,17 @@ if (profile.picture != "") {
 
  if(each.github_link.length > 1){
     const git = projects.find("#gitButton").attr("href", each.github_link)
-    projects.append(git)
   }else{
     projects.find("#gitButton").css("display","none")
   }
 
   if(each.website_link.length > 1){
     const site = projects.find("#siteButton").attr("href", each.website_link)
-    projects.append(site)
   }else{
     projects.find("#siteButton").css("display","none")
   }
   if(each.medium_article.length > 1){
     const medium = projects.find("#mediumButton").attr("href", each.medium_article)
-    projects.append(medium)
   }else{
     projects.find("#mediumButton").css("display","none")
   }
