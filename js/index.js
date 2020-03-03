@@ -47,8 +47,23 @@ if (profile.picture != "") {
   $(".resume").text(profile.resume);
   $("#description").find(".quote")
     // .text(`"${profile.quote}"`);
-  $("#description").find(".description").text(profile.description);
+ 
+    
   document.getElementById("profileImg").setAttribute("src", profile.image)
+
+  if(profile.bio.length>1){
+    $("#description").find(".description").text(profile.description);
+  }else{
+    $("#bio_2").text(profile.bio_2);
+    $("#want_to_know_more").text(profile.want_to_know_more);
+    profile.quotes.forEach(each=>{
+      console.log(each,"each")
+      $("#quotes").append(`<li>${each}</li>`)
+    })
+  }
+  
+
+ 
 
   // Social icons
   document.getElementById("linkedin").setAttribute("href", profile.social.linkedin);
@@ -112,7 +127,7 @@ if (profile.picture != "") {
 
 
   projects.find(".project_title").text(each.title);
-  projects.find("#date").text(`     ${each.date_completed}`);
+  projects.find("#date").text(each.date_completed).css("font-size", "13px");
   projects.find("p").text(each.description);
   projects.find("#more_details").empty();
   each.additional_points.forEach(each_item=>{

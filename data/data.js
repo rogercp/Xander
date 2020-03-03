@@ -2,8 +2,11 @@ let profile = {
 
 name: "Xander Bennett",
 resume:"Resume",
-description: "Data Scientist / Machine Learning Engineer",
-bio:"I’m Xander. I’m a data scientist and machine learning engineer with a finance background, and I think that data science is the key to obtaining a winning formula. My interests are all over the place, and data science can be used to make tidy conclusions about all of them and more.",
+description: "Machine Learning Engineer / Data Engineer",
+bio:"",
+bio_2:"I'm a huge data geek with a finance background. I also love quotes, so here are some about data:",
+quotes:["“Without big data, you are blind and deaf and in the middle of a freeway.” – Geoffrey Moore","“In God we trust, all others bring data.” — W Edwards Deming","“Data is the new oil.” — Clive Humby","“No great marketing decisions have ever been made on qualitative data.” – John Sculley","“Torture the data, and it will confess to anything.” – Ronald Coase","“It is a capital mistake to theorize before one has data.” — Sherlock Holmes","“Without a systematic way to start and keep data clean, bad data will happen.” — Donato Diorio"],
+want_to_know_more:"If you'd like to talk more about data with me (and get the rest of the list of quotes) my contact info is here:",
 email: "zanderwhiteleybennett@gmail.com",
 location: "San Diego, California",
 image:"./images/Xander.JPG",
