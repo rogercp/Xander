@@ -46,9 +46,7 @@ if (profile.picture != "") {
   document.getElementById("resume").setAttribute("href", profile.social.resume)
   $(".resume").text(profile.resume);
   $("#description").find(".quote")
-    // .text(`"${profile.quote}"`);
  
-    
   document.getElementById("profileImg").setAttribute("src", profile.image)
 
   if(profile.bio.length>1){
@@ -101,29 +99,36 @@ if (profile.picture != "") {
 
  profile.projects.forEach(each=>{
 
-  
 
   let projects = $("#projectTemplate");
 
   projects.find("img").attr("src", each.project_image);
-  
+
+  projects.find("#gitButton").removeAttr("href").css("display","")
+  projects.find("#siteButton").removeAttr("href").css("display","")
+  projects.find("#mediumButton").removeAttr("href").css("display","")
 
  if(each.github_link.length > 1){
-    projects.find("#gitButton").attr("href", each.github_link)
+    const git = projects.find("#gitButton").attr("href", each.github_link)
+    projects.append(git)
   }else{
-    projects.find("#gitButton").remove()
+    projects.find("#gitButton").css("display","none")
   }
 
   if(each.website_link.length > 1){
-    projects.find("#siteButton").attr("href", each.website_link)
+    const site = projects.find("#siteButton").attr("href", each.website_link)
+    projects.append(site)
   }else{
-    projects.find("#siteButton").remove()
+    projects.find("#siteButton").css("display","none")
   }
   if(each.medium_article.length > 1){
-    projects.find("#mediumButton").attr("href", each.medium_article)
+    const medium = projects.find("#mediumButton").attr("href", each.medium_article)
+    projects.append(medium)
   }else{
-    projects.find("#mediumButton").remove()
+    projects.find("#mediumButton").css("display","none")
   }
+
+
 
 
   projects.find(".project_title").text(each.title);
