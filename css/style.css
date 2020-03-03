@@ -158,7 +158,10 @@ section{
   flex-direction: column;
   align-items: center;
   }
-  
+  #more_details{
+
+    margin: 5px;
+  }
 
 }
 
