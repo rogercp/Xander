@@ -18,7 +18,7 @@ medium: "https://medium.com/@zanderwhiteleybennett"
 },
 
 about:{
-main:"Hello! My name is Xander Bennett. I live in San Diego, CA with my wife and our dynamic cat-dog duo. I am a Data Engineer with a focus on machine learning. I love programming and am usually busy with side projects. My favorite language is Python, and I use SQL a ton. Much of my programming interest is geared toward the full data science tech stack; from ETL pipelines to visualizing predictive outputs.",
+main:"Hello! My name is Xander Bennett. I live in San Diego, CA with my wife and our dynamic cat-dog duo. I am a data engineer with a focus on machine learning. I love programming and am usually busy with side projects. My favorite language is Python, and I use SQL a ton. Much of my programming interest is geared toward the full data science tech stack; from ETL pipelines to visualizing predictive outputs.",
 i_like:["programming","lacrosse", "gaming" ,"hip hop",  "speaking spanish", "burgers" ,"reading"],
 worked_at:["Lambda School", "Addepar", "Deseret Mutual Benefit Advisors" ],
 lived_in:[ "California", "Utah","Mexico" ]
@@ -35,7 +35,13 @@ projects:[
     github_link:"https://github.com/Lambda-School-Labs/Music-Meteorologist-ds",
     medium_article:"",
     date_completed:"March 2020",
-    badges:["badge one","badge twp","sdfsfd","asdfsdf","badge one","badge twp","sdfsfd","asdfsdf","badge one","badge twp","sdfsfd","asdfsdf","badge one","badge twp","sdfsfd","asdfsdf","badge one","badge twp","sdfsfd","asdfsdf","badge one","badge twp","sdfsfd","asdfsdf"]
+    badges:["Python",
+        "PostgreSQL",
+       "Machine Learning",
+        "APIs",
+        "K-Nearest Neighbors",
+        "Data Engineering",
+        "AWS"]
 },
 {
 
@@ -47,7 +53,11 @@ projects:[
     github_link:"https://github.com/AirBnB-Optimal-Price-1-LS/Data-Engineering-Machine-Learning ",
     medium_article:"",
     date_completed:"November 2019",
-    badges:["badge one","badge twp","sdfsfd","asdfsdf","badge one","badge twp"]
+    badges:["Machine Learning",
+        "Random Forest",
+        "Flask",
+        "Python",
+        "Data Engineering"]
 },
 {
 
@@ -59,7 +69,11 @@ projects:[
     github_link:"https://github.com/xander-bennett/San-Diego-Police-Data/blob/master/San%20Diego%20Police%20Data/San%20Diego%20Data%20Notebook.ipynb",
     medium_article:"https://medium.com/@zanderwhiteleybennett/do-you-know-why-i-pulled-you-over-a1b937b11665?source=friends_link&sk=fe2396e5657826d404a7740b3614a644",
     date_completed:"September 2019",
-    badges:[]
+    badges:["Python",
+        "Machine Learning",
+        "Data Visualization",
+        "Exploratory Data Analysis",
+        "Random Forest"]
 
 }
 
