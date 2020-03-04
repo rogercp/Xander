@@ -55,23 +55,6 @@ p.lead {
   font-size: 1.2rem;
 }
 
-.social-icons {
-  text-align: center;
-  max-width: 400px;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-}
-
-.social-icons a {
-  display: inline-block;
-  height: 3.5rem;
-  width: 3.5rem;
-  border-radius: 100%;
-  text-align: center;
-  font-size: 1.5rem;
-  line-height: 3.5rem;
-}
 
 #sideNav {
   background: darkslategray;
@@ -79,14 +62,6 @@ p.lead {
 }
 
 
-
-/* 
-.imgAlign {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-} */
 
 @media (min-width: 992px) {
   #sideNav {
@@ -124,10 +99,6 @@ align-items: center;
 }
 
 
-.fab{
-  font-family: "Open Sans", sans-serif;
-}
-
 
 }
 #bio-text{
@@ -138,12 +109,6 @@ align-items: center;
   width: 120px;
   font-size: small;
 }
-/* 
-section{
-  margin-top: 15rem !important;
-  padding-bottom: 5rem !important;
-  max-width: 75rem;
-} */
 
 .profile-section, .about-section,.projects-section{
   padding-top: 4rem !important;

@@ -66,7 +66,6 @@ if (profile.picture != "") {
   // Social icons
   document.getElementById("linkedin").setAttribute("href", profile.social.linkedin);
   document.getElementById("github").setAttribute("href", profile.social.github);
-  document.getElementById("medium").setAttribute("href", profile.social.medium);
   document.getElementById("bio-text").innerHTML = profile.bio;
 
 
