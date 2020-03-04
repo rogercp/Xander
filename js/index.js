@@ -44,8 +44,6 @@ if (profile.picture != "") {
   $("#email").find(".email").text(profile.email);
   document.getElementById("email").setAttribute("href", "mailto:" + profile.email);
   document.getElementById("resume").setAttribute("href", profile.social.resume)
-  $(".resume").text(profile.resume);
-  $("#description").find(".quote")
  
   document.getElementById("profileImg").setAttribute("src", profile.image)
 

@@ -1,7 +1,6 @@
 let profile = {
 
 name: "Xander Bennett",
-resume:"Resume",
 description: "Machine Learning Engineer / Data Engineer",
 bio:"",
 bio_2:"I'm a huge data geek with a finance background. I also love quotes, so here are some about data:",
@@ -11,7 +10,7 @@ email: "zanderwhiteleybennett@gmail.com",
 location: "San Diego, California",
 image:"./images/Xander.JPG",
 social: {
-resume:"./data/Resume.pdf",
+resume:"./images/Alexander_Bennett_Resume.pdf",
 linkedin: "https://www.linkedin.com/in/xander-bennett/",
 github: "https://github.com/xander-bennett",
 medium: "https://medium.com/@zanderwhiteleybennett"

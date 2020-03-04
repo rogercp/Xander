@@ -57,7 +57,7 @@ p.lead {
 
 
 #sideNav {
-  background: darkslategray;
+  background: 	#181818 ;
 
 }
 
@@ -65,7 +65,7 @@ p.lead {
 
 @media (min-width: 992px) {
   #sideNav {
-   background: darkslategray;
+    background: 	#181818 ;
     text-align: center;
     position: fixed;
     display: flex;
