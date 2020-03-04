@@ -104,6 +104,17 @@ if (profile.picture != "") {
 
   projects.find("img").attr("src", each.project_image);
 
+// badges
+
+projects.find("#badge-box").empty()
+  each.badges.forEach(each_badge=>{
+
+    projects.find("#badge-box").append(`<span class="badge badge-info m-1 " id="badge">${each_badge}</span>`).css("font-size","12px",)
+
+  })
+
+
+  // buttons
   projects.find("#gitButton").removeAttr("href").css("display","")
   projects.find("#siteButton").removeAttr("href").css("display","")
   projects.find("#mediumButton").removeAttr("href").css("display","")
@@ -126,8 +137,6 @@ if (profile.picture != "") {
   }
 
 
-
-
   projects.find(".project_title").text(each.title);
   projects.find("#date").text(each.date_completed).css("font-size", "13px");
   projects.find("p").text(each.description);
@@ -143,23 +152,6 @@ $("#experienceContainer").append(projects.html());
 )
 
 
-
-  // for (let i = 0; i < profile.projects.length; i++) {
-  //   let projects = $("#projectTemplate");
-  //   projects.find("img").attr("src", profile.projects[i].project_image);
-  //   projects.find("#gitButton").attr("href", profile.projects[i].github);
-  //   projects.find("#siteButton").attr("href", profile.projects[i].site);
-  //   projects.find(".project_title").text(profile.projects[i].title);
-  //   projects.find("p").text(profile.projects[i].description);
-
-  //   let more_details = profile.projects[i].additional_points.map(each=>{
-  //     projects.find("#more_details").append(`<li>${each}</li>`).css("font-size", "10px")
-  //   })
-  //   projects.append(more_details)
-
-  //   $("#experienceContainer").append(projects.html());
-   
-  // }
 
 
     }

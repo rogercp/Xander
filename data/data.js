@@ -34,7 +34,8 @@ projects:[
     website_link:"https://www.sound-drip.com/",
     github_link:"https://github.com/Lambda-School-Labs/Music-Meteorologist-ds",
     medium_article:"",
-    date_completed:"March 2020"
+    date_completed:"March 2020",
+    badges:["badge one","badge twp","sdfsfd","asdfsdf","badge one","badge twp","sdfsfd","asdfsdf","badge one","badge twp","sdfsfd","asdfsdf","badge one","badge twp","sdfsfd","asdfsdf","badge one","badge twp","sdfsfd","asdfsdf","badge one","badge twp","sdfsfd","asdfsdf"]
 },
 {
 
@@ -45,7 +46,8 @@ projects:[
     website_link:"https://airbnb-optimizedpricing.now.sh/login",
     github_link:"https://github.com/AirBnB-Optimal-Price-1-LS/Data-Engineering-Machine-Learning ",
     medium_article:"",
-    date_completed:"November 2019"
+    date_completed:"November 2019",
+    badges:["badge one","badge twp","sdfsfd","asdfsdf","badge one","badge twp"]
 },
 {
 
@@ -56,7 +58,8 @@ projects:[
     website_link:"",
     github_link:"https://github.com/xander-bennett/San-Diego-Police-Data/blob/master/San%20Diego%20Police%20Data/San%20Diego%20Data%20Notebook.ipynb",
     medium_article:"https://medium.com/@zanderwhiteleybennett/do-you-know-why-i-pulled-you-over-a1b937b11665?source=friends_link&sk=fe2396e5657826d404a7740b3614a644",
-    date_completed:"September 2019"
+    date_completed:"September 2019",
+    badges:[]
 
 }
 

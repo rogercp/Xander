@@ -124,6 +124,11 @@ align-items: center;
 }
 
 
+.fab{
+  font-family: "Open Sans", sans-serif;
+}
+
+
 }
 #bio-text{
   max-width: 800px;
@@ -174,8 +179,13 @@ section{
   #gitPic{
   text-align: center;
   }
+  
   #cardButtons{
    display: flex;
    justify-content: center;
   }
+}
+
+.interest-section{
+  max-width: 200px;
 }
