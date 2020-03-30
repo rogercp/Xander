@@ -17,7 +17,7 @@ medium: "https://medium.com/@zanderwhiteleybennett"
 },
 
 about:{
-main:"Hello! My name is Xander Bennett. I live in San Diego, CA with my wife and our dynamic cat-dog duo. I am a data engineer with a focus on machine learning. I love programming and am usually busy with side projects. My favorite language is Python, and I use SQL a ton. Much of my programming interest is geared toward the full data science tech stack; from ETL pipelines to visualizing predictive outputs.",
+main:"Hello! My name is Xander Bennett. I live in San Diego, CA with my wife and our dynamic cat-dog duo. I'm a data scientist with a focus on machine learning and data engineering. I love programming and am usually busy with side projects. My favorite language is Python, and I use SQL a ton. Much of my programming interest is geared toward the full data science tech stack; from ETL pipelines to machine learning algorithms.",
 i_like:["programming","lacrosse", "gaming" ,"hip hop",  "speaking spanish", "burgers" ,"reading"],
 worked_at:["Lambda School", "Addepar", "Deseret Mutual Benefit Advisors" ],
 lived_in:[ "California", "Utah","Mexico" ]
