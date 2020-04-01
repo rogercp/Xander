@@ -45,7 +45,7 @@ projects:[
 {
 
     title:"Airbnb Optimal Pricing",
-    description:" An app for Airbnb hosts in Germany that uses your machine learning to predict what you should charge for your listing in Berlin!",
+    description:" An app for Airbnb hosts in Germany that uses machine learning to predict what you should charge for your listing in Berlin!",
     additional_points:["Built a random forest machine learning model to make supervised predictions on AirBnB data","Deployed our production model to flask","Integrated our flask app with back-end developers to feed recommendations to the DB"],
     project_image:"./images/airbnb.png",
     website_link:"https://airbnb-optimizedpricing.now.sh/login",
