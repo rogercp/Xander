@@ -74,6 +74,22 @@ projects:[
         "Exploratory Data Analysis",
         "Random Forest"]
 
+},
+{
+    title:"Who Will Click the Ad?",
+    description:"An app that integrates your Spotify premium account and uses machine learning to curate a list of songs that match your musical tastes.",
+    additional_points:["Built a production-level KNN machine learning model on a manually aggregated dataset of more than 700,000 individual songs","Iterated on machine-learning models to filter based off of genre, and match on acoustical qualities.","Tested other supervised and unsupervised learning methods to improve performance, including XGBoost","Deployed our machine learning back-end flask instance to AWS Elastic Beanstalk","Launched back-end DB to track and store user data and song recommendations"],
+    project_image:"./images/sound_drip.png",
+    website_link:"",
+    github_link:"https://github.com/xander-bennett/marketing-muse",
+    medium_article:"",
+    date_completed:"May 2020",
+    badges:["Python",
+       "Machine Learning",
+        "Exploratory Data Analysis",
+        "Logistic Regression",
+        "Grid Search",
+        "Data Visualization"]
 }
 
 
