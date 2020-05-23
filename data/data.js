@@ -44,7 +44,7 @@ projects:[
 {
     title:"Sound Drip",
     description:"An app that integrates your Spotify premium account and uses machine learning to curate a list of songs that match your musical tastes.",
-    additional_points:["Built a production-level KNN machine learning model on a manually aggregated dataset of more than 700,000 individual songs","Iterated on machine-learning models to filter based off of genre, and match on acoustical qualities.","Tested other supervised and unsupervised learning methods to improve performance, including XGBoost","Deployed our machine learning back-end flask instance to AWS Elastic Beanstalk","Launched back-end DB to track and store user data and song recommendations"],
+    additional_points:["Built a production-level KNN machine learning model on a manually aggregated dataset of more than 700,000 individual songs","Iterated on machine-learning models to filter based off of genre, and match on acoustical qualities.","Migrated existing web app functions from Heroku to AWS, leveraging Elastic Beanstalk, RDS, EC2, and S3","Launched docker image on AWS ECS, improving performance by 33%"],
     project_image:"./images/sound_drip.png",
     website_link:"https://www.sound-drip.com/",
     github_link:"https://github.com/Lambda-School-Labs/Music-Meteorologist-ds",
@@ -56,13 +56,13 @@ projects:[
         "APIs",
         "K-Nearest Neighbors",
         "Data Engineering",
-        "AWS"]
+        "AWS", "Docker"]
 },
 {
 
     title:"Airbnb Optimal Pricing",
     description:" An app for Airbnb hosts in Germany that uses machine learning to predict what you should charge for your listing in Berlin!",
-    additional_points:["Built a random forest machine learning model to make supervised predictions on AirBnB data","Deployed our production model to flask","Integrated our flask app with back-end developers to feed recommendations to the DB"],
+    additional_points:["Performed exploratory data analysis to refine feature variable selection for machine learning","Built machine learning pipeline with Python classification algorithms, achieving highest accuracy score of 90%","Deployed production model to Flask API to serve predictions to front-end engineers"],
     project_image:"./images/airbnb.png",
     website_link:"https://airbnb-optimizedpricing.now.sh/login",
     github_link:"https://github.com/AirBnB-Optimal-Price-1-LS/Data-Engineering-Machine-Learning ",
