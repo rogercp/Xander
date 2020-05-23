@@ -44,7 +44,7 @@ projects:[
 {
     title:"Sound Drip",
     description:"An app that integrates your Spotify premium account and uses machine learning to curate a list of songs that match your musical tastes.",
-    additional_points:["Built a production-level KNN machine learning model on a manually aggregated dataset of more than 700,000 individual songs","Iterated on machine-learning models to filter based off of genre, and match on acoustical qualities.","Migrated existing web app functions from Heroku to AWS, leveraging Elastic Beanstalk, RDS, EC2, and S3","Launched docker image on AWS ECS, improving performance by 33%"],
+    additional_points:["Built a production-level KNN machine learning model on a manually aggregated dataset of more than 700,000 individual songs","Iterated on machine-learning models to filter based off of genre, and match on acoustical qualities","Migrated existing web app functions from Heroku to AWS, leveraging Elastic Beanstalk, RDS, EC2, and S3","Launched docker image on AWS ECS, improving performance by 33%"],
     project_image:"./images/sound_drip.png",
     website_link:"https://www.sound-drip.com/",
     github_link:"https://github.com/Lambda-School-Labs/Music-Meteorologist-ds",
