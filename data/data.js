@@ -26,7 +26,7 @@ lived_in:[ "California", "Utah","Mexico" ]
 projects:[
 {
     title:"Sick Leave Certainty",
-    description:"Using Python, SQL, and Tableau to predict whether someone will be doing an extended absence or not using employee data.",
+    description:"Using Python, SQL, and Tableau to predict whether an employee will be absent for an extended period of time.",
     additional_points:["Engineered new features for machine learning optimization",,"Built a logistic regression machine learning algorithm"," Integrated machine learning predictions with a MYSQL database","Contructed user-friendly visualizations in tableau for further anlaysis"],
     project_image:"./images/sick_employee.png",
     website_link:"",
