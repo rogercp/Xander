@@ -27,8 +27,8 @@ projects:[
 {
     title:"Sick Leave Certainty",
     description:"Using Python, SQL, and Tableau to predict whether someone will be doing an extended absence or not using employee data.",
-    additional_points:["Engineered new features for machine learning optimization",,"Built a logistic regression machine learning pipeline, which was integrated with a MYSQL database"],
-    project_image:"./images/hr-analytics.png",
+    additional_points:["Engineered new features for machine learning optimization",,"Built a logistic regression machine learning algorithm"," Integrated machine learning predictions with a MYSQL database","Contructed user-friendly visualizations in tableau for further anlaysis"],
+    project_image:"./images/sick_employee.png",
     website_link:"",
     github_link:"https://github.com/xander-bennett/human-resources-analytics",
     medium_article:"",
