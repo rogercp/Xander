@@ -98,7 +98,7 @@ projects:[
     additional_points:["Explored / visualized data while feature engineering to optimize performance","Built supervised machine learning model, specifically random forest"],
     project_image:"./images/copstop.png",
     website_link:"",
-    github_link:"https://github.com/xander-bennett/San-Diego-Police-Data/blob/master/San%20Diego%20Police%20Data/San%20Diego%20Data%20Notebook.ipynb",
+    github_link:"https://github.com/xander-bennett/San-Diego-Police-Data",
     medium_article:"",
     date_completed:"September 2019",
     badges:["Python",
