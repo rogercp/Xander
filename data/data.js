@@ -26,6 +26,23 @@ lived_in:[ "California", "Utah","Mexico" ]
 projects:[
 {
     title:"Who Will Click the Ad?",
+    description:"Using Python, SQL, and Tableau to predict whether someone will be doing an extended absence or not using employee data.",
+    additional_points:["Engineered new features for machine learning optimization",,"Built a logistic regression machine learning pipeline, which was integrated with a MYSQL database"],
+    project_image:"./images/Digital-marketing.png",
+    website_link:"",
+    github_link:"https://github.com/xander-bennett/human-resources-analytics",
+    medium_article:"",
+    date_completed:"August 2020",
+    badges:["Python",
+       "Machine Learning",
+        "Exploratory Data Analysis",
+        "Logistic Regression",
+        "SQL",
+        "Data Visualization",
+        "Tableau"]
+},
+{
+    title:"Who Will Click the Ad?",
     description:"Using data science and machine learning on advertising data to predict which target customers are more likely to click on a marketing ad.",
     additional_points:["Cleaned raw advertising data and performed feature engineering","Uncovered bimodal distributions using data visualizations","Built a logistic regression machine learning pipeline, achieving overall accuracy of 96% and an F1 score of 98%"],
     project_image:"./images/Digital-marketing.png",
