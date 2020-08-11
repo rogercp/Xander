@@ -95,7 +95,7 @@ projects:[
 
     title:"CopStop Predictions",
     description:"Having recently moved to San Diego, I accessed their data portal and looked at every recorded instance of an officer pulling someone over from July 2018 - July 2019 and used machine learning to predict whether someone would get a ticket or not",
-    additional_points:["Explored / visualized data while feature engineering to optimize performance","Built supervised machine learning model, specifically random forest"],
+    additional_points:["Explored / visualized data while feature engineering to optimize performance","Built supervised machine learning model, specifically random forest", "Achieved overall F1 score of 89%"],
     project_image:"./images/copstop.png",
     website_link:"",
     github_link:"https://github.com/xander-bennett/San-Diego-Police-Data",
